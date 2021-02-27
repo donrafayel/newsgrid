@@ -1,0 +1,59 @@
+/* home page */
+nav {
+  display: block;
+}
+nav h1 {
+  padding-bottom: 0.5rem;
+}
+nav li a {
+  margin: 0 4rem;
+}
+.section1 > div {
+  display: inline;
+}
+h2 {
+  margin: 0.6rem 10.4rem;
+}
+.section2 {
+  grid-template-columns: repeat(2, 240px);
+  height: 1100px;
+}
+.section3 > div {
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+.end:nth-child(7) {
+  grid-column: 1;
+}
+/* about page */
+.page-container {
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0.5rem;
+  grid-column: 1;
+}
+.article {
+  padding-bottom: 2rem;
+}
+.aside h1,
+.aside p {
+  padding-bottom: 2rem;
+}
+.btn-block {
+  text-align: center;
+  padding: 1.7rem;
+  font-size: 30px;
+}
+/* article page */
+.image {
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  border: whitesmoke solid 4px;
+}
+#article h1 {
+  font-size: 23.5px;
+  padding-top: 0.6rem;
+}
+small {
+  font-size: 1.3rem;
+}
